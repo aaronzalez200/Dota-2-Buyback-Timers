@@ -13,6 +13,9 @@ This project is still ongoing. The project is built using a custom PCB that allo
 
 The main functionality of this project is completed. 
 
+PCB Model:
+![PCB Timer](https://github.com/user-attachments/assets/d78664d9-8c9e-4968-bb70-12cdcbcb1291)
+
 Below are images of the display: 
 ![20250629_022920](https://github.com/user-attachments/assets/be1462a4-fd5f-4fdf-97cb-de46bb5e961d)
 ![image](https://github.com/user-attachments/assets/c861952d-e247-4f1a-9362-aaf1363e0960)
