@@ -1,0 +1,7 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+A1,Arduino_Nano_ESP32_Socket,1,Arduino_Nano_ESP32_Socket,
+"D1, D10, D11, D2, D3, D4, D5, D6, D7, D8, D9",Diode_DO-35,11,Diode,
+"H1, H2, H3, H4",MountingHole_4mm,4,MountingHole,
+"J1, J2",PinSocket_1x15_P2.54mm_Vertical,2,pin header,
+"J3, J4",PinHeader_1x15_P2.54mm_Vertical,2,pin header,
+"S1, S10, S11, S2, S3, S4, S5, S6, S7, S8, S9",MX_PCB_1.00u,11,Keyswitch,
