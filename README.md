@@ -11,6 +11,29 @@ The next roadblock I had was creating a custom LVGL screen to suit my use case. 
 ## Summary
 This project is still ongoing. A few changes need to be done such as the direction of the ESP Nano on the board (USB-C is in the way of two keys currently). The project is built using a custom PCB that allows 11 keys that the user can press to configure the device to start various timers related to the game Dota 2. In the game Dota 2 both teams can use gold acquired during the match to "buyback" which allows their character to respawn instantly (if already dead). When this is used, that player is unable to "buyback" again until 8 minutes have passed in-game. Since the game can be very fast-paced, it can be difficult to keep track of the cooldown of each player on the enemy team who has used their "buyback." The purpose of this project is to create a device that can easily keep track of up to 5 individual, 8-minute timers. There is functionality that allows the user to pause the timer, since in-game, either team can pause the game. And just incase there's further complication, while the in-game timer is paused on the device, the user can also increment or decrement the in-game timer while updating any active "buyback" timers. The YouTube short link demonstrates this device in action: https://www.youtube.com/shorts/Tls8hikkFVM
 
+## Keys
+The keys will be referred as shown:
+
+```
+(K1) (K2) (K3) (K4) (K5)
+(K6) (K7) (K8) (K9) (K10)
+          (K11)
+
+K10 - Officially starts/creates the in-game timer
+K6 - Deletes the in-game timer
+K8 - Pauses/Resumes the in-game timer
+K7 - Decrements the in-game timer
+K9 - Increments the in-game timer
+K1 - Starts the 8 minute timer for enemy player #1
+K2 - Starts the 8 minute timer for enemy player #2
+K3 - Starts the 8 minute timer for enemy player #3
+K4 - Starts the 8 minute timer for enemy player #4
+K5 - Starts the 8 minute timer for enemy player #5
+K11 - Toggles between the three tabs (Only using tab #3 for now)
+```
+
+
+
 The main functionality of this project is completed. 
 
 PCB Model:
